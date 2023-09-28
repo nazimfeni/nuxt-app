@@ -17,6 +17,6 @@ function increment(){
 }
 
 function decrement(){
-  count.value;
+  count.value--;
 }
 </script>
