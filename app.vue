@@ -1,4 +1,5 @@
 <template>
-<home-welcome />
- <counter />
-</template>
+<!-- <home-welcome />
+ <counter /> -->
+ <NuxtPage/>
+</template>x`
