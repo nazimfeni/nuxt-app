@@ -1,11 +1,9 @@
 <template>
-    <div>
-            <h1>This is Homepage</h1>
-            <nuxt-link to="/">Home</nuxt-link>
-            <nuxt-link to="/about">About</nuxt-link>
-            <nuxt-link to="/contact">Contact</nuxt-link>
-            <nuxt-link to="/portfolio">Portfolio</nuxt-link>
-    </div>
+        <h1>This is Homepage</h1>
+   <TheHeader />
+    <slot />
+
+   <TheFooter />
 </template>
 
 <script setup>

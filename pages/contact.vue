@@ -1,10 +1,7 @@
 <template>
     <div>
 <h1>Contact page</h1>
-<nuxt-link to="/">Home</nuxt-link>
-            <nuxt-link to="/about">About</nuxt-link>
-            <nuxt-link to="/contact">Contact</nuxt-link>
-            <nuxt-link to="/portfolio">Portfolio</nuxt-link>
+<TheHeader />
     </div>
 </template>
 
