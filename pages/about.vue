@@ -6,6 +6,21 @@
 </template>
 
 <script setup>
+useHead({
+        title: 'About Page',
+        meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'About description'
+      }
+    ],
+})
+
+
+definePageMeta({
+  layout: 'aboutlayout',
+});
 
 </script>
 

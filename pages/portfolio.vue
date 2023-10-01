@@ -6,7 +6,16 @@
 </template>
 
 <script setup>
-
+useHead({
+        title: 'Portfolio Page',
+        meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Portfolio description'
+      }
+    ],
+})
 </script>
 
 <style lang="scss" scoped>
